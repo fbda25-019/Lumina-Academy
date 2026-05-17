@@ -1,0 +1,606 @@
+/* === COURSERA-INSPIRED THEME === */
+:root {
+  --primary: #0056d2;
+  --primary-dark: #003d99;
+  --primary-light: #e8f0fe;
+  --dark: #1f1f1f;
+  --gray: #6b7280;
+  --light-gray: #f5f5f5;
+  --border: #e0e0e0;
+  --white: #ffffff;
+  --success: #059669;
+  --star: #e59819;
+  --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --shadow: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+  --radius: 12px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font);
+  background: var(--white);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* === NAVBAR === */
+.navbar-coursera {
+  background: var(--white) !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  padding: 0.5rem 0;
+}
+.navbar-coursera .navbar-brand {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--dark);
+  letter-spacing: -0.5px;
+}
+.navbar-coursera .navbar-brand img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 0;
+}
+.navbar-coursera .nav-link {
+  color: var(--dark) !important;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.2s;
+}
+.navbar-coursera .nav-link:hover,
+.navbar-coursera .nav-link.active {
+  color: var(--primary) !important;
+}
+.navbar-coursera .nav-link.active {
+  font-weight: 700;
+}
+.btn-coursera {
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+.btn-coursera:hover {
+  background: var(--primary-dark);
+  color: white;
+}
+.btn-outline-coursera {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 40px;
+  font-size: 0.9rem;
+}
+.btn-outline-coursera:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/* === HERO === */
+.hero-coursera {
+  background: linear-gradient(135deg, #0a2540 0%, #1a3a5c 50%, #0d47a1 100%);
+  color: white;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero-coursera::after {
+  content: '';
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.03);
+}
+.hero-coursera h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.hero-coursera p {
+  font-size: 1.15rem;
+  opacity: 0.9;
+  max-width: 600px;
+}
+.hero-search {
+  max-width: 550px;
+  position: relative;
+}
+.hero-search input {
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 40px;
+  border: none;
+  font-size: 1rem;
+  padding-right: 140px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.hero-search .btn {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  padding: 10px 28px;
+  border-radius: 40px;
+  font-weight: 600;
+}
+.hero-trust {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.hero-trust small {
+  opacity: 0.6;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hero-trust .logos {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: rgba(255,255,255,0.5);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* === SECTION HEADERS === */
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-header h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--dark);
+}
+.section-header p {
+  color: var(--gray);
+  font-size: 1.05rem;
+}
+
+/* === CATEGORY CARDS === */
+.category-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  color: var(--dark);
+}
+.category-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+  border-color: var(--primary);
+  color: var(--dark);
+}
+.category-card .icon {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-size: 24px;
+  color: var(--primary);
+}
+.category-card h6 {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+.category-card small {
+  color: var(--gray);
+  font-size: 0.8rem;
+}
+
+/* === COURSE CARDS (Coursera style) === */
+.course-card-coursera {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: all 0.3s;
+  height: 100%;
+}
+.course-card-coursera:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-4px);
+}
+.course-card-coursera .thumb {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+}
+.course-card-coursera .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+.course-card-coursera:hover .thumb img {
+  transform: scale(1.05);
+}
+.course-card-coursera .thumb .badge-top {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--primary);
+  color: white;
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.course-card-coursera .body {
+  padding: 16px;
+}
+.course-card-coursera .body .partner {
+  font-size: 0.75rem;
+  color: var(--gray);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.course-card-coursera .body h5 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.course-card-coursera .body p {
+  font-size: 0.82rem;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+.course-card-coursera .rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.course-card-coursera .rating .stars {
+  color: var(--star);
+  font-size: 0.85rem;
+}
+.course-card-coursera .rating .score {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--dark);
+}
+.course-card-coursera .rating .count {
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+.course-card-coursera .meta {
+  display: flex;
+  gap: 12px;
+  font-size: 0.78rem;
+  color: var(--gray);
+}
+.course-card-coursera .meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.course-card-coursera .meta i {
+  font-size: 0.7rem;
+}
+
+/* === ABOUT PAGE === */
+.about-coursera {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.about-coursera h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.about-coursera .lead {
+  font-size: 1.1rem;
+  color: var(--gray);
+}
+.mission-coursera {
+  background: var(--primary-light);
+  border-radius: var(--radius);
+  padding: 30px;
+  margin: 30px 0;
+  border-left: 4px solid var(--primary);
+}
+.mission-coursera h3 {
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.value-card-coursera {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.value-card-coursera:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+.value-card-coursera i {
+  font-size: 32px;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+.value-card-coursera h5 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.value-card-coursera p {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+/* === GALLERY === */
+.gallery-coursera .item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid var(--border);
+}
+.gallery-coursera .item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s;
+}
+.gallery-coursera .item:hover img {
+  transform: scale(1.08);
+}
+.gallery-coursera .item .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  padding: 20px;
+  color: white;
+}
+.gallery-coursera .item .overlay h6 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.gallery-coursera .item .overlay small {
+  opacity: 0.85;
+}
+
+/* === RESOURCES === */
+.resource-card-coursera {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  height: 100%;
+  transition: all 0.3s;
+}
+.resource-card-coursera:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+.resource-card-coursera h4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+.resource-card-coursera h4 i {
+  color: var(--primary);
+  margin-right: 8px;
+}
+.resource-card-coursera ul {
+  list-style: none;
+  padding: 0;
+}
+.resource-card-coursera li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+.resource-card-coursera li:last-child {
+  border-bottom: none;
+}
+.resource-card-coursera a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+.resource-card-coursera a i {
+  color: var(--primary);
+  font-size: 0.85rem;
+  width: 16px;
+}
+.resource-card-coursera a:hover {
+  color: var(--primary);
+}
+
+/* === CONTACT === */
+.contact-coursera .info-card {
+  background: var(--primary-light);
+  border-radius: var(--radius);
+  padding: 30px;
+  height: 100%;
+}
+.contact-coursera .info-card h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.contact-coursera .info-item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.contact-coursera .info-item i {
+  color: var(--primary);
+  font-size: 1.1rem;
+  width: 20px;
+  margin-top: 3px;
+}
+.contact-coursera .info-item strong {
+  display: block;
+  font-size: 0.85rem;
+}
+.contact-coursera .info-item span {
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+.contact-coursera .form-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px;
+}
+.contact-coursera .form-card h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.contact-coursera .form-control, .contact-coursera .form-select {
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+}
+.contact-coursera .form-control:focus, .contact-coursera .form-select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(0,86,210,0.1);
+}
+
+/* === FOOTER (Coursera style) === */
+.footer-coursera {
+  background: #0a2540;
+  color: rgba(255,255,255,0.7);
+  padding: 50px 0 30px;
+  margin-top: 60px;
+}
+.footer-coursera h6 {
+  color: white;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.footer-coursera a {
+  color: rgba(255,255,255,0.65);
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+}
+.footer-coursera a:hover {
+  color: white;
+}
+.footer-coursera .brand-footer {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: -0.5px;
+}
+.footer-coursera .brand-footer small {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+  display: block;
+  letter-spacing: 0;
+}
+.footer-coursera hr {
+  border-color: rgba(255,255,255,0.1);
+  margin: 30px 0;
+}
+.footer-coursera .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.footer-coursera .bottom small {
+  font-size: 0.8rem;
+}
+
+/* === TESTIMONIALS === */
+.testimonial-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: all 0.3s;
+}
+.testimonial-card:hover {
+  box-shadow: var(--shadow-hover);
+}
+.testimonial-card .quote {
+  font-size: 0.9rem;
+  color: var(--gray);
+  font-style: italic;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+.testimonial-card .author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.testimonial-card .author .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.testimonial-card .author strong {
+  font-size: 0.9rem;
+  display: block;
+}
+.testimonial-card .author small {
+  color: var(--gray);
+  font-size: 0.8rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .hero-coursera h1 { font-size: 2rem; }
+  .hero-coursera { padding: 50px 0; }
+  .hero-search input { padding-right: 20px; }
+  .hero-search .btn { position: relative; right: auto; top: auto; width: 100%; margin-top: 10px; }
+  .hero-trust { flex-direction: column; align-items: flex-start; }
+  .section-header h2 { font-size: 1.5rem; }
+  .footer-coursera .bottom { flex-direction: column; text-align: center; }
+}
