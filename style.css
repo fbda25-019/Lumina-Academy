@@ -595,12 +595,100 @@ body {
 }
 
 /* === RESPONSIVE === */
+
+/* Large tablets / small desktops */
+@media (max-width: 992px) {
+  .hero-coursera h1 { font-size: 2.4rem; }
+  .navbar-coursera .navbar-brand { font-size: 1.1rem; }
+  .navbar-coursera .navbar-brand img { height: 34px; width: 34px; }
+  .footer-coursera .col-lg-3:first-child { margin-bottom: 20px; }
+}
+
+/* Tablets */
 @media (max-width: 768px) {
-  .hero-coursera h1 { font-size: 2rem; }
   .hero-coursera { padding: 50px 0; }
-  .hero-search input { padding-right: 20px; }
-  .hero-search .btn { position: relative; right: auto; top: auto; width: 100%; margin-top: 10px; }
-  .hero-trust { flex-direction: column; align-items: flex-start; }
+  .hero-coursera h1 { font-size: 1.8rem; letter-spacing: 0; }
+  .hero-coursera p { font-size: 1rem; }
+  .hero-search input { padding-right: 20px; font-size: 0.95rem; padding: 14px 16px; }
+  .hero-search .btn { position: relative; right: auto; top: auto; width: 100%; margin-top: 8px; border-radius: 40px; }
+  .hero-trust { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .hero-trust .logos { font-size: 0.8rem; gap: 16px; }
   .section-header h2 { font-size: 1.5rem; }
+  .section-header p { font-size: 0.95rem; }
+  .section-header { margin-bottom: 28px; }
+  .course-card-coursera .thumb { height: 140px; }
+  .course-card-coursera .meta { flex-wrap: wrap; gap: 6px; }
+  .gallery-coursera .item img { height: 180px; }
+  .about-coursera h2 { font-size: 1.5rem; }
+  .mission-coursera { padding: 20px; }
+  .contact-coursera .info-card,
+  .contact-coursera .form-card { padding: 20px; }
+  .contact-coursera .form-control { font-size: 16px; }
+  .resource-card-coursera { padding: 18px; }
+  .testimonial-card { padding: 20px; }
+  .footer-coursera { padding: 36px 0 24px; }
   .footer-coursera .bottom { flex-direction: column; text-align: center; }
+  .navbar-coursera .navbar-brand { font-size: 1rem; }
+  .navbar-coursera .navbar-brand img { height: 30px; width: 30px; }
+  .navbar-coursera .nav-link { padding: 0.5rem 0 !important; border-bottom: 1px solid #f0f0f0; }
+  .navbar-coursera .navbar-collapse .d-flex { flex-direction: column; gap: 8px; margin-top: 10px; }
+  .navbar-coursera .navbar-collapse .d-flex .btn { width: 100%; text-align: center; }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+  .hero-coursera { padding: 36px 0; }
+  .hero-coursera h1 { font-size: 1.5rem; }
+  .hero-coursera p { font-size: 0.92rem; }
+  .hero-trust { margin-top: 24px; }
+  .hero-trust small { font-size: 0.7rem; }
+  .section-header h2 { font-size: 1.3rem; }
+  .category-card { padding: 20px 12px; }
+  .category-card .icon { width: 44px; height: 44px; font-size: 18px; }
+  .category-card h6 { font-size: 0.8rem; }
+  .category-card small { font-size: 0.7rem; }
+  .course-card-coursera .body { padding: 12px; }
+  .course-card-coursera .body h5 { font-size: 0.92rem; }
+  .course-card-coursera .body p { font-size: 0.78rem; }
+  .course-card-coursera .rating .stars { font-size: 0.75rem; }
+  .course-card-coursera .rating .score { font-size: 0.78rem; }
+  .course-card-coursera .rating .count { font-size: 0.72rem; }
+  .course-card-coursera .meta { font-size: 0.72rem; }
+  .course-card-coursera .thumb { height: 120px; }
+  .course-card-coursera .thumb .badge-top { font-size: 0.6rem; padding: 2px 8px; top: 8px; left: 8px; }
+  .gallery-coursera .item img { height: 160px; }
+  .gallery-coursera .item .overlay { padding: 12px; }
+  .gallery-coursera .item .overlay h6 { font-size: 0.85rem; }
+  .gallery-coursera .item .overlay small { font-size: 0.72rem; }
+  .about-coursera h2 { font-size: 1.3rem; }
+  .about-coursera .lead { font-size: 0.95rem; }
+  .value-card-coursera { padding: 20px 12px; }
+  .value-card-coursera i { font-size: 26px; }
+  .value-card-coursera h5 { font-size: 0.85rem; }
+  .value-card-coursera p { font-size: 0.78rem; }
+  .resource-card-coursera h4 { font-size: 1rem; }
+  .resource-card-coursera a { font-size: 0.82rem; }
+  .resource-card-coursera li { padding: 6px 0; }
+  .testimonial-card .quote { font-size: 0.82rem; }
+  .testimonial-card .author strong { font-size: 0.82rem; }
+  .contact-coursera .info-item span { font-size: 0.82rem; }
+  .footer-coursera { padding: 28px 0 20px; }
+  .footer-coursera .brand-footer { font-size: 1.1rem; }
+  .footer-coursera h6 { font-size: 0.78rem; margin-bottom: 12px; }
+  .footer-coursera a { font-size: 0.8rem; }
+  main > .container { padding-left: 12px; padding-right: 12px; }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+  .hero-coursera h1 { font-size: 1.3rem; }
+  .hero-coursera .btn { font-size: 0.82rem; padding: 8px 16px; }
+  .section-header h2 { font-size: 1.15rem; }
+  .category-card { padding: 14px 8px; }
+  .category-card .icon { width: 38px; height: 38px; font-size: 16px; }
+  .course-card-coursera .thumb { height: 100px; }
+  .course-card-coursera .body { padding: 10px; }
+  .course-card-coursera .body h5 { font-size: 0.85rem; }
+  .gallery-coursera .item img { height: 140px; }
+  .footer-coursera .col-6 { width: 100%; }
 }
