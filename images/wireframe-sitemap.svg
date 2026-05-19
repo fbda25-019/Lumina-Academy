@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" style="background:#f8fafc;font-family:Segoe UI,sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#0056d2"/></marker>
+  </defs>
+  <rect width="900" height="620" fill="#f8fafc" rx="10"/>
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#0a2540">Site Map — Lumina Academy</text>
+  
+  <!-- Home -->
+  <rect x="320" y="65" width="260" height="50" rx="25" fill="#0056d2"/>
+  <text x="450" y="96" text-anchor="middle" font-size="15" font-weight="700" fill="white">index.html — Home</text>
+
+  <!-- Row 2 -->
+  <line x1="350" y1="115" x2="120" y2="155" stroke="#0056d2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="115" x2="270" y2="155" stroke="#0056d2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="450" y1="115" x2="450" y2="155" stroke="#0056d2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="115" x2="590" y2="155" stroke="#0056d2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="550" y1="115" x2="700" y2="155" stroke="#0056d2" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="580" y1="115" x2="780" y2="155" stroke="#0056d2" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="30" y="155" width="170" height="50" rx="10" fill="white" stroke="#0056d2" stroke-width="2"/>
+  <text x="115" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="#0056d2">about.html — About</text>
+
+  <rect x="210" y="155" width="170" height="50" rx="10" fill="white" stroke="#0056d2" stroke-width="2"/>
+  <text x="295" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="#0056d2">courses.html — Courses</text>
+
+  <rect x="380" y="155" width="170" height="50" rx="10" fill="white" stroke="#0056d2" stroke-width="2"/>
+  <text x="465" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="#0056d2">gallery.html — Gallery</text>
+
+  <rect x="550" y="155" width="170" height="50" rx="10" fill="white" stroke="#0056d2" stroke-width="2"/>
+  <text x="635" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="#0056d2">resources.html — Resources</text>
+
+  <rect x="720" y="155" width="170" height="50" rx="10" fill="white" stroke="#0056d2" stroke-width="2"/>
+  <text x="805" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="#0056d2">contact.html — Contact</text>
+
+  <!-- Description boxes -->
+  <rect x="30" y="225" width="170" height="80" rx="8" fill="#e8f0fe"/>
+  <text x="115" y="248" text-anchor="middle" font-size="11" fill="#1f1f1f">Mission, Story</text>
+  <text x="115" y="264" text-anchor="middle" font-size="11" fill="#1f1f1f">Core Values</text>
+  <text x="115" y="280" text-anchor="middle" font-size="11" fill="#1f1f1f">Team Info</text>
+
+  <rect x="210" y="225" width="170" height="80" rx="8" fill="#e8f0fe"/>
+  <text x="295" y="248" text-anchor="middle" font-size="11" fill="#1f1f1f">6 Course Cards</text>
+  <text x="295" y="264" text-anchor="middle" font-size="11" fill="#1f1f1f">Ratings, Meta</text>
+  <text x="295" y="280" text-anchor="middle" font-size="11" fill="#1f1f1f">Images & Badges</text>
+
+  <rect x="380" y="225" width="170" height="80" rx="8" fill="#e8f0fe"/>
+  <text x="465" y="248" text-anchor="middle" font-size="11" fill="#1f1f1f">9 Gallery Items</text>
+  <text x="465" y="264" text-anchor="middle" font-size="11" fill="#1f1f1f">Image Overlays</text>
+  <text x="465" y="280" text-anchor="middle" font-size="11" fill="#1f1f1f">Zoom Effects</text>
+
+  <rect x="550" y="225" width="170" height="80" rx="8" fill="#e8f0fe"/>
+  <text x="635" y="248" text-anchor="middle" font-size="11" fill="#1f1f1f">3 Resource Cards</text>
+  <text x="635" y="264" text-anchor="middle" font-size="11" fill="#1f1f1f">Ebooks, Videos</text>
+  <text x="635" y="280" text-anchor="middle" font-size="11" fill="#1f1f1f">Practice Labs</text>
+
+  <rect x="720" y="225" width="170" height="80" rx="8" fill="#e8f0fe"/>
+  <text x="805" y="248" text-anchor="middle" font-size="11" fill="#1f1f1f">Contact Form</text>
+  <text x="805" y="264" text-anchor="middle" font-size="11" fill="#1f1f1f">Location Info</text>
+  <text x="805" y="280" text-anchor="middle" font-size="11" fill="#1f1f1f">Social Links</text>
+
+  <!-- Footer legend -->
+  <rect x="150" y="340" width="600" height="50" rx="25" fill="#0a2540"/>
+  <text x="450" y="371" text-anchor="middle" font-size="13" font-weight="600" fill="white">All pages share a common Footer (links, social icons, copyright)</text>
+
+  <!-- Navbar legend -->
+  <rect x="150" y="400" width="600" height="50" rx="25" fill="#e8f0fe" stroke="#0056d2" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="450" y="431" text-anchor="middle" font-size="13" font-weight="600" fill="#0056d2">All pages share a common Sticky Navbar with consistent navigation</text>
+
+  <!-- User flow -->
+  <text x="450" y="490" text-anchor="middle" font-size="14" font-weight="700" fill="#0a2540">User Navigation Flow</text>
+  <rect x="140" y="505" width="180" height="40" rx="20" fill="#059669"/>
+  <text x="230" y="530" text-anchor="middle" font-size="13" font-weight="600" fill="white">Enter → Home Page</text>
+  <line x1="320" y1="525" x2="380" y2="525" stroke="#059669" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="380" y="505" width="180" height="40" rx="20" fill="#059669"/>
+  <text x="470" y="530" text-anchor="middle" font-size="13" font-weight="600" fill="white">Browse → Any Page</text>
+  <line x1="560" y1="525" x2="620" y2="525" stroke="#059669" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="620" y="505" width="140" height="40" rx="20" fill="#059669"/>
+  <text x="690" y="530" text-anchor="middle" font-size="13" font-weight="600" fill="white">Contact → Form</text>
+
+  <!-- Key -->
+  <text x="450" y="575" text-anchor="middle" font-size="11" fill="#6b7280">User can navigate from any page to any other page via the persistent navbar</text>
+</svg>

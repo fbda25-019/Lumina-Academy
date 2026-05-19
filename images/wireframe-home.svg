@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" style="font-family:Segoe UI,sans-serif">
+  <rect width="800" height="1100" fill="white" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#0a2540">Wireframe — Home Page (index.html)</text>
+  
+  <!-- Navbar -->
+  <rect x="30" y="50" width="740" height="55" rx="8" fill="#e8f0fe" stroke="#0056d2" stroke-width="1.5"/>
+  <rect x="45" y="62" width="40" height="30" rx="4" fill="#0056d2"/> <text x="65" y="82" text-anchor="middle" font-size="10" fill="white">Logo</text>
+  <text x="100" y="82" font-size="14" font-weight="700" fill="#0056d2">Lumina Academy</text>
+  <text x="300" y="82" font-size="11" fill="#666">Home  About  Courses  Gallery  Resources  Contact</text>
+  <rect x="600" y="62" width="70" height="30" rx="15" fill="#0056d2"/> <text x="635" y="82" text-anchor="middle" font-size="10" fill="white">Get Started</text>
+
+  <!-- Hero -->
+  <rect x="30" y="120" width="740" height="200" rx="10" fill="#0a2540"/>
+  <text x="400" y="175" text-anchor="middle" font-size="22" font-weight="700" fill="white">Learn IT &amp; Cyber Security. Build your future.</text>
+  <text x="400" y="200" text-anchor="middle" font-size="12" fill="#ccc">Flexible online courses from industry experts. Gain real skills, earn certifications.</text>
+  <rect x="120" y="220" width="500" height="40" rx="20" fill="white"/> <text x="370" y="246" text-anchor="middle" font-size="12" fill="#999">What do you want to learn today?</text>
+  <rect x="530" y="224" width="80" height="32" rx="20" fill="#0056d2"/> <text x="570" y="245" text-anchor="middle" font-size="11" fill="white">Search</text>
+  <text x="200" y="290" font-size="10" fill="#888">Trusted by learners across Botswana | Africa</text>
+
+  <!-- Categories -->
+  <text x="400" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#0a2540">Explore Top Categories</text>
+  <rect x="60" y="370" width="95" height="90" rx="10" fill="white" stroke="#e0e0e0"/>
+  <circle cx="107" cy="395" r="20" fill="#e8f0fe"/> <text x="107" y="400" text-anchor="middle" font-size="14" fill="#0056d2">🛡</text>
+  <text x="107" y="430" text-anchor="middle" font-size="10" font-weight="600">Cybersecurity</text>
+  <text x="107" y="445" text-anchor="middle" font-size="9" fill="#888">8 courses</text>
+
+  <rect x="170" y="370" width="95" height="90" rx="10" fill="white" stroke="#e0e0e0"/>
+  <circle cx="217" cy="395" r="20" fill="#e8f0fe"/> <text x="217" y="400" text-anchor="middle" font-size="14" fill="#0056d2">🔒</text>
+  <text x="217" y="430" text-anchor="middle" font-size="10" font-weight="600">Ethical</text>
+  <text x="217" y="445" text-anchor="middle" font-size="9" fill="#888">4 courses</text>
+
+  <rect x="280" y="370" width="95" height="90" rx="10" fill="white" stroke="#e0e0e0"/>
+  <circle cx="327" cy="395" r="20" fill="#e8f0fe"/> <text x="327" y="400" text-anchor="middle" font-size="14" fill="#0056d2">🌐</text>
+  <text x="327" y="430" text-anchor="middle" font-size="10" font-weight="600">Networking</text>
+  <text x="327" y="445" text-anchor="middle" font-size="9" fill="#888">6 courses</text>
+
+  <rect x="390" y="370" width="95" height="90" rx="10" fill="white" stroke="#e0e0e0"/>
+  <circle cx="437" cy="395" r="20" fill="#e8f0fe"/> <text x="437" y="400" text-anchor="middle" font-size="14" fill="#0056d2">☁</text>
+  <text x="437" y="430" text-anchor="middle" font-size="10" font-weight="600">Cloud</text>
+  <text x="437" y="445" text-anchor="middle" font-size="9" fill="#888">5 courses</text>
+  
+  <rect x="500" y="370" width="95" height="90" rx="10" fill="white" stroke="#e0e0e0"/>
+  <circle cx="547" cy="395" r="20" fill="#e8f0fe"/> <text x="547" y="400" text-anchor="middle" font-size="14" fill="#0056d2">💻</text>
+  <text x="547" y="430" text-anchor="middle" font-size="10" font-weight="600">IT Support</text>
+  <text x="547" y="445" text-anchor="middle" font-size="9" fill="#888">3 courses</text>
+
+  <rect x="610" y="370" width="95" height="90" rx="10" fill="white" stroke="#e0e0e0"/>
+  <circle cx="657" cy="395" r="20" fill="#e8f0fe"/> <text x="657" y="400" text-anchor="middle" font-size="14" fill="#0056d2">🎓</text>
+  <text x="657" y="430" text-anchor="middle" font-size="10" font-weight="600">Cert Prep</text>
+  <text x="657" y="445" text-anchor="middle" font-size="9" fill="#888">7 courses</text>
+
+  <!-- Featured Courses -->
+  <text x="400" y="500" text-anchor="middle" font-size="16" font-weight="700" fill="#0a2540">Most Popular Courses</text>
+  
+  <!-- Course Card 1 -->
+  <rect x="45" y="515" width="220" height="280" rx="10" fill="white" stroke="#e0e0e0"/>
+  <rect x="45" y="515" width="220" height="110" rx="10" fill="#1a3a5c"/>
+  <rect x="55" y="525" width="70" height="22" rx="11" fill="#0056d2"/> <text x="90" y="540" text-anchor="middle" font-size="9" fill="white">Bestseller</text>
+  <text x="155" y="600" text-anchor="middle" font-size="10" font-weight="700" fill="#0a2540">Cybersecurity</text>
+  <text x="155" y="615" text-anchor="middle" font-size="10" font-weight="700" fill="#0a2540">Fundamentals</text>
+  <text x="155" y="640" text-anchor="middle" font-size="9" fill="#888">Threat analysis, risk mgmt</text>
+  <text x="155" y="660" font-size="10" fill="#e59819">★★★★½</text> <text x="200" y="660" font-size="10" font-weight="700">4.7</text> <text x="225" y="660" font-size="9" fill="#888">(342)</text>
+  <text x="70" y="685" font-size="8" fill="#888">🕐 8 weeks</text> <text x="150" y="685" font-size="8" fill="#888">📶 Beginner</text>
+
+  <!-- Course Card 2 -->
+  <rect x="290" y="515" width="220" height="280" rx="10" fill="white" stroke="#e0e0e0"/>
+  <rect x="290" y="515" width="220" height="110" rx="10" fill="#1a3a5c"/>
+  <rect x="300" y="525" width="60" height="22" rx="11" fill="#0056d2"/> <text x="330" y="540" text-anchor="middle" font-size="9" fill="white">Popular</text>
+  <text x="400" y="600" text-anchor="middle" font-size="10" font-weight="700" fill="#0a2540">Ethical Hacking</text>
+  <text x="400" y="615" text-anchor="middle" font-size="10" font-weight="700" fill="#0a2540">(CEH Track)</text>
+  <text x="400" y="640" text-anchor="middle" font-size="9" fill="#888">Penetration testing, exploits</text>
+  <text x="400" y="660" font-size="10" fill="#e59819">★★★★★</text> <text x="445" y="660" font-size="10" font-weight="700">4.9</text> <text x="470" y="660" font-size="9" fill="#888">(218)</text>
+  <text x="315" y="685" font-size="8" fill="#888">🕐 12 weeks</text> <text x="395" y="685" font-size="8" fill="#888">📶 Intermediate</text>
+
+  <!-- Course Card 3 -->
+  <rect x="535" y="515" width="220" height="280" rx="10" fill="white" stroke="#e0e0e0"/>
+  <rect x="535" y="515" width="220" height="110" rx="10" fill="#1a3a5c"/>
+  <rect x="545" y="525" width="50" height="22" rx="11" fill="#0056d2"/> <text x="570" y="540" text-anchor="middle" font-size="9" fill="white">New</text>
+  <text x="645" y="600" text-anchor="middle" font-size="10" font-weight="700" fill="#0a2540">Cloud Computing</text>
+  <text x="645" y="615" text-anchor="middle" font-size="10" font-weight="700" fill="#0a2540">(AWS/Azure)</text>
+  <text x="645" y="640" text-anchor="middle" font-size="9" fill="#888">Cloud architecture, deploy</text>
+  <text x="645" y="660" font-size="10" fill="#e59819">★★★★½</text> <text x="690" y="660" font-size="10" font-weight="700">4.6</text> <text x="715" y="660" font-size="9" fill="#888">(156)</text>
+  <text x="560" y="685" font-size="8" fill="#888">🕐 6 weeks</text> <text x="640" y="685" font-size="8" fill="#888">📶 Beginner</text>
+
+  <!-- Testimonials -->
+  <text x="400" y="835" text-anchor="middle" font-size="16" font-weight="700" fill="#0a2540">What Our Learners Say</text>
+  <rect x="45" y="850" width="220" height="100" rx="10" fill="white" stroke="#e0e0e0"/>
+  <text x="155" y="875" text-anchor="middle" font-size="9" fill="#666" font-style="italic">"Lumina gave me the confidence to pursue cybersecurity..."</text>
+  <circle cx="80" cy="920" r="16" fill="#e8f0fe"/> <text x="80" y="925" text-anchor="middle" font-size="11" fill="#0056d2">KT</text>
+  <text x="105" y="918" font-size="10" font-weight="600">Khumo T.</text> <text x="105" y="932" font-size="8" fill="#888">Cybersecurity Grad</text>
+
+  <rect x="290" y="850" width="220" height="100" rx="10" fill="white" stroke="#e0e0e0"/>
+  <text x="400" y="875" text-anchor="middle" font-size="9" fill="#666" font-style="italic">"The flexible schedule allowed me to learn while working..."</text>
+  <circle cx="325" cy="920" r="16" fill="#e8f0fe"/> <text x="325" y="925" text-anchor="middle" font-size="11" fill="#0056d2">AM</text>
+  <text x="350" y="918" font-size="10" font-weight="600">Aobakwe M.</text> <text x="350" y="932" font-size="8" fill="#888">Cloud Student</text>
+
+  <rect x="535" y="850" width="220" height="100" rx="10" fill="white" stroke="#e0e0e0"/>
+  <text x="645" y="875" text-anchor="middle" font-size="9" fill="#666" font-style="italic">"I passed CompTIA Security+ on the first try thanks to Lumina..."</text>
+  <circle cx="570" cy="920" r="16" fill="#e8f0fe"/> <text x="570" y="925" text-anchor="middle" font-size="11" fill="#0056d2">BN</text>
+  <text x="595" y="918" font-size="10" font-weight="600">Boitumelo N.</text> <text x="595" y="932" font-size="8" fill="#888">IT Professional</text>
+
+  <!-- Footer -->
+  <rect x="30" y="975" width="740" height="110" rx="8" fill="#0a2540"/>
+  <text x="80" y="1000" font-size="13" font-weight="700" fill="white">Lumina Academy</text>
+  <text x="80" y="1015" font-size="9" fill="#aaa">IT &amp; Cyber Security Excellence</text>
+  <text x="300" y="1000" font-size="10" font-weight="600" fill="white">Explore</text>
+  <text x="300" y="1015" font-size="9" fill="#aaa">Home · About · Courses</text>
+  <text x="300" y="1030" font-size="9" fill="#aaa">Gallery · Resources</text>
+  <text x="480" y="1000" font-size="10" font-weight="600" fill="white">Support</text>
+  <text x="480" y="1015" font-size="9" fill="#aaa">Contact · FAQ</text>
+  <text x="650" y="1000" font-size="10" font-weight="600" fill="white">Contact</text>
+  <text x="650" y="1015" font-size="9" fill="#aaa">lumina45@gmail.com</text>
+  <text x="650" y="1030" font-size="9" fill="#aaa">72214546</text>
+  <text x="400" y="1070" text-anchor="middle" font-size="9" fill="#aaa">© 2026 Lumina Academy. Bridging the skills gap.</text>
+</svg>
